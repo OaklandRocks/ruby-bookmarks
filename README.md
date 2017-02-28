@@ -4,20 +4,84 @@ This is a curated collection of essential Ruby and Ruby on Rails resources. The 
 
 ★&nbsp;stands here for Editors' Choice.
 
-This list is not intended to include any random resource related to Ruby programming (we already have a most complete gem catalogue at [ruby-toolbox.com](https://ruby-toolbox.com)), but only the best and most actual alternatives in each area. You will find here latest editions of the most important books, time and community tested gems (alive projects only!), and actively updated websites. *Sharing and pull requests are very much appreciated!*
+This list is not intended to include any random resource related to Ruby programming (we already have a most complete gem catalogue at [ruby-toolbox.com](https://ruby-toolbox.com) and [Awesome Ruby](https://ruby.libhunt.com)), but only the best and most actual alternatives in each area. You will find here latest editions of the most important books, time and community tested gems (alive projects only!), and actively updated websites. *Sharing and pull requests are very much appreciated!*
 
 **[Fork and edit](https://github.com/dreikanter/ruby-bookmarks/edit/master/README.md)**
 
 PS: Check out [awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness) for other community-driven bookmark collections.
 
+## Table of Contents
+
+- [Books](#books)
+  - [For beginners and intermediate level developers ](#for-beginners-and-intermediate-level-developers)
+  - [Advancing Ruby knowledge](#advancing-ruby-knowledge)
+  - [Ruby on Rails for beginners](#ruby-on-rails-for-beginners)
+  - [Ruby on Rails, advanced level](#ruby-on-rails-advanced-level)
+  - [Testing](#testing)
+  - [Other frameworks and tools](#other-frameworks-and-tools)
+- [Blogs](#blogs)
+- [Screencasts and courses](#screencasts-and-courses)
+- [Other Learning Materials](#other-learning-materials)
+- [Style Guides](#style-guides)
+- [Podcasts](#podcasts)
+- [Tools](#tools)
+  - [IDEs and text editors](#ides-and-text-editors)
+  - [Code quality analysis](#code-quality-analysis)
+  - [Environment management](#environment-management)
+  - [Ruby distributions](#ruby-distributions)
+  - [Documentation](#documentation)
+  - [Application and Web Servers](#application-and-web-servers)
+  - [Deployment Automation and Configuration Management](#deployment-automation-and-configuration-management)
+  - [Other tools](#other-tools)
+- [Quizzes, tests, exams](#quizzes-tests-exams)
+- [Hosting](#hosting)
+  - [VPS](#vps)
+  - [PAAS](#paas)
+  - [Some materials on Rails deployment](#some-materials-on-rails-deployment)
+- [Gems](#gems)
+  - [ActiveRecord](#activerecord)
+  - [API](#api)
+  - [Authentication](#authentication)
+  - [Authorization](#authorization)
+  - [Avatars](#avatars)
+  - [Background Jobs](#background-jobs)
+  - [Bootstrap](#bootstrap)
+  - [CLI](#cli)
+  - [CSS](#css)
+  - [Configuration and environment variables](#configuration-and-environment-variables)
+  - [Debugging](#debugging)
+  - [E-commerce](#e-commerce)
+  - [Graphics](#graphics)
+  - [HTML, XML](#html-xml)
+  - [Logging](#logging)
+  - [Mail](#mail)
+  - [Markdown](#markdown)
+  - [Message Queuing](#message-queuing)
+  - [Misc](#misc)
+  - [Multithreading](#multithreading)
+  - [Profiling and Performance](#profiling-and-performance)
+  - [Rack](#rack)
+  - [Rails](#rails)
+  - [Scheduling](#scheduling)
+  - [SDKs and API Wrapers](#sdks-and-api-wrapers)
+  - [Search](#search)
+  - [Security](#security)
+  - [Serialization](#serialization)
+  - [Syntax Highlighters](#syntax-highlighters)
+  - [Template engines](#template-engines)
+  - [Testing](#testing)
+  - [Web Frameworks](#web-frameworks)
+
+
 ## Books
 
 ### For beginners and intermediate level developers
-- [Why's Poignant Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/) by Why the Lucky Stiff
+
 - ★ Eloquent Ruby by *Russ Olsen*. [Official site](http://eloquentruby.com/), [Amazon](http://www.amazon.com/Eloquent-Ruby-Addison-Wesley-Professional/dp/0321584104/).
 - [Programming Ruby 1.9 & 2.0](http://pragprog.com/book/ruby4/programming-ruby-1-9-2-0) by Dave Thomas, Andy Hunt, and Chad Fowler.
 - [Learn Ruby The Hard Way](http://ruby.learncodethehardway.org/book/) by Zed A. Shaw. Available to pre-order at [amazon](http://www.amazon.com/Learn-Ruby-Hard-Shaws-Series/dp/032188499X).
 - [The Ruby Programming Language](http://www.amazon.com/Ruby-Programming-Language-David-Flanagan/dp/0596516177) by David Flanagan and Yukihiro "Matz" Matsumoto.
+- [Why's Poignant Guide to Ruby](http://mislav.uniqpath.com/poignant-guide/) by Why the Lucky Stiff
 
 ### Advancing Ruby knowledge
 
@@ -29,14 +93,15 @@ PS: Check out [awesome-awesomeness](https://github.com/bayandin/awesome-awesomen
 - [Practical Object-Oriented Design in Ruby](http://poodr.com) by Sandi Metz.
 - [Clean Ruby](http://clean-ruby.com/) by Jim Gay
 - [Reliably Deploying Rails Applications](https://leanpub.com/deploying_rails_applications) by Ben Dixon — a robust framework for provisioning servers with Chef and deploying reliably with Capistrano 3, including example code templates you can use directly.
+- [Rubyfu(@Rubyfu)](http://rubyfu.net) - Ruby for hackers book(Open source). Collection of ideas, tricks and skills that could be useful for Hackers.
 
 ### Ruby on Rails for beginners
 
-- [Learn Ruby on Rails](http://learn-rails.com/learn-ruby-on-rails.html) by Daniel Kehoe. [Amazon](http://www.amazon.com/dp/B00QK2T1SY).
 - ★ The Rails 4 Way by *Obie Fernandez* and *Kevin Faustino*. [Amazon](http://www.amazon.com/Rails-Edition-Addison-Wesley-Professional-Series-ebook/dp/B00KKNO8YQ/), [Informit](http://www.informit.com/store/rails-4-way-9780321944276).
 - [Agile Web Development with Rails 4](http://www.amazon.com/Agile-Development-Rails-Facets-Ruby/dp/1937785564/) by Sam Ruby, Dave Thomas, and David Heinemeier Hansson.
 - [Rails 4 in Action](http://manning.com/bigg2) by Ryan Bigg, Yehuda Katz, Steve Klabnik, and Rebecca Skinner.
 - [The Ruby on Rails Tutorial](https://www.railstutorial.org/book) by Michael Hartl
+- [Learn Ruby on Rails](http://learn-rails.com/learn-ruby-on-rails.html) by Daniel Kehoe. [Amazon](http://www.amazon.com/dp/B00QK2T1SY).
 
 ### Ruby on Rails, advanced level
 
@@ -75,6 +140,7 @@ PS: Check out [awesome-awesomeness](https://github.com/bayandin/awesome-awesomen
 - [A Fresh Cup](http://afreshcup.com/) — links to new resources and insightful blog posts.
 - [Black Bytes](http://www.blackbytes.info) — Ruby tutorials
 - [Weissblog](http://www.justinweiss.com/blog/archives/) — Rails tutorials
+- [A Ruby Story](http://www.arubystory.com) - Ruby & Rails tutorials (with cat pictures).
 
 ## Screencasts and courses
 
@@ -203,6 +269,7 @@ See also:
 - [ngrok](https://ngrok.com) — introspected tunnels to localhost. ngrok creates a tunnel from the public internet (http://subdomain.ngrok.com) to a port on your local machine. You can give this URL to anyone to allow them to try out a web site you're developing without doing any deployment.
 - [eye](https://github.com/kostya/eye) — a process monitor.
 - [god](https://github.com/mojombo/god) - the Ruby Framework for Process Management
+- [DuckRails](https://github.com/iridakos/duckrails) - development tool for mocking API endpoints quickly & dynamically.
 
 ## Quizzes, tests, exams
 
